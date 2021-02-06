@@ -1,17 +1,144 @@
 <!DOCTYPE html>
+    <!-- META -->
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0
+        }       
+        body {  
+            font-family: sans-serif;
+            width:100vw;
+        }
+        .p-20 {
+            padding: 20px;
+        }
+
+        .p-10 {
+            padding: 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .bg-brown{
+            background:brown;
+            color:white;
+        }
+        
+        .bold {
+            font-weight:bold;
+        }
+        .text-white {
+            color:white
+        }
+        .bg-meat {
+            background:#8A3A3A;
+            color:white
+        }
+        .bg-yellow {
+            background:#DAEB72;
+        
+        }
+        .bg-green {
+            background:#72EB7F;
+        }
+        .sticky-top {
+            position:fixed;
+            top:0;
+        }
+        .margin-top {
+            margin-top:45px;
+        }
+        .header {
+            height:45px;
+            width:100vw;
+        }
+
+    </style>
+    <!-- ACTUAL WEBSITE CONTENT -->
     <body>
-        <header>
+        <header class="bg-brown p-20 bold center sticky-top header"    >
+            
             <nav>
                 BIG RANDY'S BIG CHEESEBURGERS
             </nav>
         </header>
-        
-        
+        <main class="margin-top">
+            <section class="bg-meat p-20">
+                <h1>BURGERS</h1>
+                <ul>
+                    <li>BACON CHEESE BURGER</li>
+                    <li>DOUBLE BACON CHEESEBURGER</li>
+                    <li>VEGGIE BURGER</li>
+                    <li>MUSHROOM BURGER</li>
+                    <li>BLEU CHEESE BURGER</li>     
+                </ul>           
+            </section>    
+            <section class="bg-yellow p-20">
+                <h1>SIDES</h1>
+                <ul>
+                    <li>FRENCH FRIES</li>
+                    <li>FRIED PICKLES</li>
+                    <li>FRIED JALAPENOS WITH CREAM CHEESE</li>
+                </ul>           
+            </section>    
+            <section class="bg-green p-20">
+                <h1>DRINKS</h1>
+                <ul>
+                    <li>COLA</li>
+                    <li>ROOT BEER</li>
+                    <li>WATERMELON JUICE</li>
+                </ul>           
+            </section>  
+            <section class="bg-green p-20">
+                <h1>NEW SECTION 1</h1>
+                <ul>
+                    <li>COLA</li>
+                    <li>ROOT BEER</li>
+                    <li>WATERMELON JUICE</li>
+                </ul>           
+            </section>
+            <section class="bg-green p-20">
+                <h1>NEW SECTION2</h1>
+                <ul>
+                    <li>COLA</li>
+                    <li>ROOT BEER</li>
+                    <li>WATERMELON JUICE</li>
+                </ul>           
+            </section>
+            <footer class="bg-brown p-20">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="" class="text-white">
+                                ABOUT
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="" class="text-white">
+                                INSTAGRAM
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="" class="text-white">
+                                CAREERS
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="" class="text-white">
+                                CONTACT
+                            </a> 
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
+        </main>
     </body>
 </html>
